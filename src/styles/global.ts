@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%; // Ajuda a calcular o rem
+    font-size: 2.4vh;
   }
 
   html, body, #__next {

@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import {{pascalCase name}} from './index';
+import Button from './index';
 
-// describe('<{{pascalCase name}} />', () => {
+// describe('<Button />', () => {
   // it('should render the heading', () => {
-    // const thisRender = render(<{{pascalCase name}} />);
+    // const thisRender = render(<Button />);
 
     // it('children must be allowed', () => {
     //   expect(thisRender.getByText('Text1')).toBeInTheDocument();
