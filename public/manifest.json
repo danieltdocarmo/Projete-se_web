@@ -1,0 +1,16 @@
+{
+  "name": "NextJs - Boilerplate",
+  "short_name": "NextJs Bp",
+  "icons": [
+    {
+      "src": "/assets/icon/NextJs.png",
+      "sizes": "800x479",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "description": "BoilerPlate for NextJs with Typescript",
+  "start_url": "/",
+  "display": "fullscreen"
+}
