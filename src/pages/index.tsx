@@ -1,9 +1,11 @@
-import Div from 'components/Div';
+import Div from 'components/styledComponents/Div';
 
 export default function Home() {
   return (
-    <Div shadowIntensity={0} defaultHover={true}>
-      <h1>Home</h1>
-    </Div>
+    <>
+      <Div themes="common" themesHover>
+        <h1>Home</h1>
+      </Div>
+    </>
   );
 }
