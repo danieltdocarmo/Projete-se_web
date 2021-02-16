@@ -7,4 +7,6 @@ export default {
   component: ProjeteseLogo,
 } as Meta;
 
-export const Template: Story<IProjeteseLogoProps> = (args) => <ProjeteseLogo {...args} />;
+export const Template: Story<IProjeteseLogoProps> = (args) => (
+  <ProjeteseLogo {...args} />
+);
