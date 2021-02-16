@@ -9,7 +9,7 @@ module.exports = {
   collectCoverage: true,
 
   // Informe onde ele deve captar as informações do collectCoverage
-  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
+  collectCoverageFrom: ['src/components/**/*.tsx', '!src/**/stories.tsx'],
 
   // Adiciona informações em todos os testes através de arquivos.
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
