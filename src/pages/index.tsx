@@ -1,5 +1,8 @@
 import { Container } from './styles';
+import Footer from '../components/Footer/index';
 
 export default function Home() {
-  return <Container>Home</Container>;
+  return <Container>
+    <Footer/>
+    </Container>;
 }

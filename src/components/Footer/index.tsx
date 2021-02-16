@@ -1,5 +1,9 @@
 import IFooterProps from './types';
+
 import { Container, Content } from './styles';
+
+import ProjeteseLogo from '../ProjeteseLogo/index';
+
 import {ImTwitter, ImFacebook} from 'react-icons/im';
 import {FiInstagram} from 'react-icons/fi';
 
@@ -7,7 +11,9 @@ const Footer: React.FC<IFooterProps> = ({ children, style, className }) => {
   return <Container {...{ style, className }}>
     
     {children}
-      <Content className="footer-contents footer-contents-logo">Testando</Content>
+      <Content className="footer-contents footer-contents-logo">
+        <ProjeteseLogo/>
+      </Content>
       <Content className="footer-contents footer-contents-text">
         <div>
           <h3>Fortaleza - CE</h3>  
